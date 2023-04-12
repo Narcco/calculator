@@ -4,7 +4,7 @@ This is a simple calculator app that allows users to do basic math problems.
 
 ## Demo
 
-You can try the live demo right here: [narcco-calculator.netlify.app/](narcco-calculator.netlify.app)
+You can try the live demo right here: [narcco-calculator.netlify.app/](https://narcco-calculator.netlify.app/)
 
 ![screenshot](https://cdn.discordapp.com/attachments/1030155603303219353/1095527301506150490/image.png)
 
