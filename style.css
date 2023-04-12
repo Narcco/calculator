@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    overflow: hidden;
+}
+
+.calculator-container {
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 26rem;
+    height: 40rem;
+    border-radius: 0.4rem;
+    border: 1px solid #464646;
+}
+
+.calculator-display {
+    width: 23rem;
+    height: 8rem;
+    margin-top: 1.4rem;
+    background-color: #1D1D1D;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-display input {
+    width: 100%;
+    height: 5rem;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 2rem;
+    text-align: start;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #525252;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8a8a8a;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #303030;
+}
+
+.calculator-display input::placeholder {
+    font-size: 16px;
+}
+
+.calculator-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #222222;
+    width: 23rem;
+    height: 27rem;
+    margin-top: 1.3rem;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.2);
+}
+
+.calculator-buttons div {
+    display: flex;
+}
+
+.calculator-buttons div input {
+    display: flex;
+    width: 4rem;
+    height: 3.7rem;
+    background-color: #1B1B1B;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.8rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.calculator-buttons div input:hover {
+    background-color: #181818;
+}
+
+.equal-btn {
+    width: 15rem !important;
+}
